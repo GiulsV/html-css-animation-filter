@@ -1,0 +1,24 @@
+.mare{
+    width: 640px;
+    height: 380px;
+    background-image: url("sfondo.jpeg");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animazionebg 30s linear infinite;
+
+}
+
+.sub{
+    width: 640px;
+    height: 380px;
+    background-image: url("sub3.png");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animazionebg 10s linear infinite;
+    transform: scaleX(-1);
+}
+
+@keyframes animazionebg {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+ }
